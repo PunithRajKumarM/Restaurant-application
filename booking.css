@@ -60,20 +60,3 @@
 .booking-data {
   gap: 1rem 1rem;
 }
-@media screen and (max-width: 600px) {
-  .book-table {
-    scroll-snap-align: end;
-  }
-  .booking-data {
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-  .book-table-text {
-    font-size: x-large;
-  }
-  .book-table,
-  .booking-data {
-    gap: 0.5rem 0.5rem;
-  }
-}

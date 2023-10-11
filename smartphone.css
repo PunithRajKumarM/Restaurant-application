@@ -1,0 +1,161 @@
+/* html {
+  scroll-snap-type: none;
+} */
+/* About */
+.about-text {
+  font-size: x-large;
+}
+.about-section {
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 1rem;
+  align-items: center;
+}
+.about-left {
+  width: 100%;
+}
+.about-left > h1 {
+  font-size: x-large;
+}
+.about-right {
+  display: none;
+}
+.about-button {
+  padding: 0.5rem 1rem;
+}
+/* Booking */
+.book-table {
+  scroll-snap-align: end;
+}
+.booking-data {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.book-table-text {
+  font-size: x-large;
+}
+.book-table,
+.booking-data {
+  gap: 0.5rem 0.5rem;
+}
+/* Contact */
+.contact {
+  gap: 0.5rem 0.5rem;
+}
+.contact-text:first-child {
+  font-size: x-large;
+}
+.contact-text:nth-child(2) {
+  font-size: medium;
+}
+.menu {
+  scroll-snap-align: start;
+}
+/* Footer */
+.footer {
+  padding: 5rem 1rem;
+}
+.footer-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-contact,
+.footer-timing,
+.footer-follow-us {
+  width: 100%;
+  height: auto;
+}
+.footer > .footer-logo > h1 {
+  font-size: x-large;
+}
+.footer-contact h2,
+.footer-timing h2,
+.footer-follow-us h2 {
+  font-size: large;
+}
+/* Index */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  row-gap: 0.25rem;
+  padding: 1rem 0.5rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.logo > span {
+  color: orangered;
+  font-size: xx-large;
+}
+.navbar > .logo > h1 {
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+  color: orangered;
+}
+.lists a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+.lists a button,
+.navbar > button {
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 10px;
+  border-color: darkred;
+  background: orangered;
+  color: white;
+  font-weight: 100;
+}
+.banner {
+  padding: 8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.banner > p {
+  font-weight: 100;
+}
+/* Menu */
+.menu {
+  padding: 25rem;
+  height: 100%;
+}
+.menu-button {
+  padding: 0.5rem 1rem;
+}
+.menu-text {
+  font-size: x-large;
+}
+/* Service */
+.service {
+  padding: 15rem 6rem 3rem 6rem;
+}
+.service-list {
+  display: flex;
+  flex-direction: column;
+}
+.service,
+.service-lists,
+.service-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 1rem;
+}
+.service-text {
+  font-size: x-large;
+}
+.service-list > h1 {
+  font-size: larger;
+}
+.service-logo {
+  font-size: x-large;
+}
