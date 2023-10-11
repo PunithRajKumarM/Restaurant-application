@@ -1,0 +1,59 @@
+.contact {
+  scroll-snap-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 3.05rem;
+  gap: 1rem 1rem;
+  background-image: url("https://th.bing.com/th/id/R.d53b9b36fc11e78b3ba32d2c74068a64?rik=JF%2f1LmC5es6iWg&riu=http%3a%2f%2fcoveteur.com%2fwp-content%2fuploads%2f2018%2f03%2flondon-regent-street-best-restaurants-2.jpg&ehk=BMknNyaNUcakC8VyTj5oUG2Exgz%2fUPSfYSB1S7e%2b15k%3d&risl=&pid=ImgRaw&r=0");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem 1rem;
+}
+.contact > form > table tr td input,
+.contact > form > table tr td textarea {
+  width: 100%;
+  padding: 0.5rem;
+  outline: none;
+  border: none;
+  color: dimgray;
+  background-color: hsl(0, 0%, 95%);
+}
+.contact > form > table tr td input::placeholder,
+.contact > form > table tr td textarea::placeholder {
+  font-style: italic;
+}
+.contact form > input {
+  border: none;
+  outline: none;
+  padding: 0.5rem 2rem;
+  background-color: chartreuse;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-text:first-child {
+  color: orangered;
+  font-size: xx-large;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+.contact-text:nth-child(2) {
+  color: #ffc600;
+  font-size: large;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+.contact-text {
+  text-shadow: 0 1px 1px black;
+}

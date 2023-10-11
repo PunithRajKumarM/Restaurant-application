@@ -1,0 +1,111 @@
+.menu-button {
+  padding: 1rem 1.5rem;
+  border-radius: 10px;
+  border-color: darkred;
+  background: linear-gradient(45deg, orangered, red);
+  color: white;
+  font-family: "Dancing Script", cursive;
+  cursor: pointer;
+}
+.menu {
+  flex-direction: column;
+  scroll-snap-align: end;
+  padding: 3rem 0;
+  background-image: url("https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?cs=srgb&dl=bread-color-cooking-1565982.jpg&fm=jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.menu-text {
+  padding: 0 0 1.3rem 0;
+}
+.menu-list {
+  padding: 3.5rem 8rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: lighten;
+  transition: all 1s ease;
+}
+.menu-list:hover {
+  box-shadow: 0 0 5px white;
+  background-blend-mode: darken;
+}
+.menu-list:hover .menu-add {
+  opacity: 1;
+}
+.menu-list:first-child {
+  background-image: url("https://th.bing.com/th/id/R.69b4aab09576ea94a6f4bf8eced8c519?rik=w8%2ftQ0XOials7Q&riu=http%3a%2f%2fblog.hdwallsource.com%2fwp-content%2fuploads%2f2015%2f01%2fVegetarian_diet_breakfast.jpg&ehk=SrfvXYSLzfyqR9aiCHj6pJdh%2bCRX1PIgXL4pHcLt5Lo%3d&risl=&pid=ImgRaw&r=0");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-list:nth-child(2) {
+  background-image: url("https://images8.alphacoders.com/405/405724.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-list:nth-child(3) {
+  background-image: url("https://th.bing.com/th/id/R.e23a05a168dc24e29b36456cb25e12f1?rik=g4gGLRT55%2b6unQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-dV1rgtcLXZ8%2fTyb6tHeahsI%2fAAAAAAAADkM%2fY6qVQDuHxac%2fs1600%2fBest-top-desktop-food-wallpapers-hd-food-wallpaper-food-pictures-image-photo-1.jpg&ehk=xtpyUY6g1mVM7yudEcW47RjAgzZTziCAk9l%2fYsJVYDE%3d&risl=&pid=ImgRaw&r=0");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-list:nth-child(4) {
+  background-image: url("https://th.bing.com/th/id/OIP.MY_YxA7U0dK2L6ELo2fEVgHaFi?pid=ImgDet&rs=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-list:nth-child(5) {
+  background-image: url("https://th.bing.com/th/id/OIP.4DGd-_RHf2I40HkNq_xJpgHaFC?pid=ImgDet&rs=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-list:nth-child(6) {
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/2016/08/Fresh-hot-delicious-food-wallpaper.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-list:nth-child(7) {
+  background-image: url("https://th.bing.com/th/id/OIP.YRmxbXO8dxw7xyFPRBpzDQHaE7?pid=ImgDet&rs=1");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-list:nth-child(8) {
+  background-image: url("https://elavegan.com/wp-content/uploads/2020/10/eating-vegetable-stir-fry-noodles-with-chopsticks.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.menu-add {
+  font-weight: 500;
+  font-size: xx-large;
+  opacity: 0;
+  transition: all 1s ease;
+  color: white;
+}
+.menu-text {
+  text-shadow: 0 1px 1px black;
+  color: orangered;
+  font-size: xx-large;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+}
+.menu,
+.menu-lists {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-lists {
+  flex-wrap: wrap;
+}
+.menu,
+.menu-lists {
+  gap: 1rem 1rem;
+}

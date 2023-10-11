@@ -1,0 +1,63 @@
+.service {
+  scroll-snap-align: start;
+  padding: 6rem 0.5rem;
+  background-image: url("https://images.pexels.com/photos/370984/pexels-photo-370984.jpeg?cs=srgb&dl=blur-close-up-cutlery-370984.jpg&fm=jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.service-list {
+  color: yellow;
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  box-shadow: 0px 0px 2px black;
+  padding: 0.5rem;
+  width: 15rem;
+  height: 18rem;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.25s linear;
+  border-radius: 10px;
+}
+.service-list > h1 {
+  font-family: "Dancing Script", cursive;
+}
+.service-list > p {
+  font-style: italic;
+}
+.service-list:hover {
+  color: white;
+  background-color: yellow;
+  box-shadow: none;
+}
+.service-list:hover h1,
+.service-list:hover p {
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+.service-logo {
+  font-size: xx-large;
+}
+.service-text {
+  color: orangered;
+  font-size: xx-large;
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  text-shadow: 0 1px 1px black;
+}
+.service-lists {
+  flex-direction: row;
+}
+.service,
+.service-lists,
+.service-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 1rem;
+}
+.service,
+.service-list {
+  flex-direction: column;
+}
