@@ -1,0 +1,92 @@
+.footer {
+  scroll-snap-align: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem 1rem;
+  padding: 5rem;
+  background-color: rgba(0, 0, 0, 0.75);
+  background-image: url("https://mgmgrand.mgmresorts.com/content/dam/MGM/mgm-grand/dining/in-room-dining/food-and-drink/mgm-grand-restraurant-in-room-dining-signature-dish-dinner-steak-lobster-@2x.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  color: white;
+}
+.footer > .footer-logo {
+  display: flex;
+  justify-content: center;
+  column-gap: 1rem;
+}
+.footer-logo > span {
+  color: orangered;
+  font-size: xx-large;
+}
+.footer > .footer-logo > h1 {
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+  color: orangered;
+}
+.footer > p {
+  text-align: center;
+  font-style: italic;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.footer-contact,
+.footer-timing,
+.footer-follow-us {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  row-gap: 1rem;
+  align-items: center;
+  justify-content: flex-start;
+  width: 20rem;
+  height: 15rem;
+  padding: 1rem;
+}
+.footer-contact h2,
+.footer-timing h2,
+.footer-follow-us h2 {
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+}
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1rem;
+  cursor: pointer;
+}
+.footer-instagram {
+  background: linear-gradient(
+    rgb(81, 91, 212),
+    rgb(129, 52, 175),
+    rgb(221, 42, 123),
+    rgb(254, 218, 110),
+    rgb(245, 133, 41)
+  );
+}
+.footer-facebook {
+  background-color: #3b5998;
+}
+.footer-twitter {
+  background: #1dcaff;
+}
+.footer-instagram,
+.footer-facebook,
+.footer-twitter {
+  border-radius: 10px;
+  color: white;
+  box-shadow: 0 0 2px black;
+}
+.footer-contact-location,
+.footer-contact-call,
+.footer-contact-mail {
+  cursor: pointer;
+}
