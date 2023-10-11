@@ -94,85 +94,30 @@ html {
 .banner > a {
   text-decoration: none;
 }
-.book-table > button {
-  padding: 1rem 1.5rem;
-  border-radius: 10px;
-  border-color: darkred;
-  background: linear-gradient(45deg, orangered, red);
-  color: white;
-  font-family: "Dancing Script", cursive;
-  cursor: pointer;
-}
-.book-table {
-  scroll-snap-align: end;
-  padding: 8.25rem 1rem;
-  background-image: url("https://th.bing.com/th/id/R.9ab9626a301c2bf1444893a69a1bfac7?rik=bchIfKWRj7jk8A&riu=http%3a%2f%2fblog.hdwallsource.com%2fwp-content%2fuploads%2f2015%2f01%2ffood-wallpaper-5775-5940-hd-wallpapers.jpg&ehk=ztpYnAbcmx%2fkMJpAK6zBKLdtTpl1ZSTkTzS2gvOuO40%3d&risl=&pid=ImgRaw&r=0");
-  background-position: center;
-  background-attachment: fixed;
-  flex-direction: column;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-.book-table-text {
-  padding: 2rem 0;
-}
-.booking-data {
-  justify-content: space-evenly;
-}
-.booking-data input {
-  cursor: pointer;
-  border: 2px solid white;
-  border-radius: 10px;
-  color: white;
-  padding: 0.25rem 1rem;
-  background-color: transparent;
-  font-weight: 600;
-  box-shadow: 1px 1px 1px black;
-}
-.booking-data input:focus {
-  outline: none;
-}
-.booking-data input::placeholder {
-  color: white;
-}
-.book-table-text {
-  color: orangered;
-  font-size: xx-large;
-  font-family: "Dancing Script", cursive;
-  text-align: center;
-}
+
+
 .logo > span,
 .navbar > .logo > h1,
 .lists a,
 .lists a button,
 .banner > p,
-.banner > h1,
-.booking-data input,
-.book-table-text {
+.banner > h1{
   text-shadow: 0 1px 1px black;
 }
 .navbar,
 .navbar > .logo,
 .search,
-.banner,
-.book-table,
-.booking-data {
+.banner {
   display: flex;
 }
 .search,
-.banner,
-.book-table {
+.banner {
   justify-content: center;
 }
 .navbar,
 .navbar > .logo,
 .search,
-.banner,
-.book-table,
-.booking-data {
+.banner {
   align-items: center;
 }
-.book-table,
-.booking-data {
-  gap: 1rem 1rem;
-}
+
