@@ -61,3 +61,30 @@
 .service-list {
   flex-direction: column;
 }
+@media screen and (max-width: 600px) {
+  .service {
+    padding: 15rem 6rem 3rem 6rem;
+  }
+  .service-list {
+    display: flex;
+    flex-direction: column;
+  }
+  .service,
+  .service-lists,
+  .service-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem 1rem;
+  }
+  .service-text {
+    font-size: x-large;
+  }
+  .service-list > h1 {
+    font-size: larger;
+  }
+  .service-logo {
+    font-size: x-large;
+  }
+}

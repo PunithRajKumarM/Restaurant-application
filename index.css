@@ -10,6 +10,7 @@ html {
   scroll-snap-stop: always;
 }
 .navbar {
+  display: flex;
   justify-content: space-around;
   align-items: center;
   position: sticky;
@@ -82,6 +83,7 @@ html {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
+  text-align: center;
 }
 .banner > p {
   font-weight: 600;
@@ -95,13 +97,12 @@ html {
   text-decoration: none;
 }
 
-
 .logo > span,
 .navbar > .logo > h1,
 .lists a,
 .lists a button,
 .banner > p,
-.banner > h1{
+.banner > h1 {
   text-shadow: 0 1px 1px black;
 }
 .navbar,
@@ -120,4 +121,51 @@ html {
 .banner {
   align-items: center;
 }
-
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    row-gap: 0.25rem;
+    padding: 1rem 0.5rem;
+    position: sticky;
+    top: 0;
+    left: 0;
+  }
+  .logo > span {
+    color: orangered;
+    font-size: xx-large;
+  }
+  .navbar > .logo > h1 {
+    font-family: "Dancing Script", cursive;
+    font-style: italic;
+    color: orangered;
+  }
+  .lists a {
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+  }
+  .lists a button,
+  .navbar > button {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border-color: darkred;
+    background: orangered;
+    color: white;
+    font-weight: 100;
+  }
+  .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 9rem 5rem;
+  }
+  .banner > p {
+    font-weight: 100;
+  }
+}

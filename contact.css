@@ -58,3 +58,14 @@
 .contact-text {
   text-shadow: 0 1px 1px black;
 }
+@media screen and (max-width: 600px) {
+  .contact {
+    gap: 0.5rem 0.5rem;
+  }
+  .contact-text:first-child {
+    font-size: x-large;
+  }
+  .contact-text:nth-child(2) {
+    font-size: medium;
+  }
+}

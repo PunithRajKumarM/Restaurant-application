@@ -90,4 +90,27 @@
 .footer-contact-mail {
   cursor: pointer;
 }
-
+@media screen and (max-width: 600px) {
+  .footer {
+    padding: 5rem 1rem;
+  }
+  .footer-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer-contact,
+  .footer-timing,
+  .footer-follow-us {
+    width: 100%;
+    height: auto;
+  }
+  .footer > .footer-logo > h1 {
+    font-size: x-large;
+  }
+  .footer-contact h2,
+  .footer-timing h2,
+  .footer-follow-us h2 {
+    font-size: large;
+  }
+}
