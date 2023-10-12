@@ -2,6 +2,9 @@
   scroll-snap-type: none;
 } */
 /* About */
+.about {
+  height: 100dvh;
+}
 .about-text {
   font-size: x-large;
 }
@@ -26,6 +29,7 @@
 /* Booking */
 .book-table {
   scroll-snap-align: end;
+  height: 100dvh;
 }
 .booking-data {
   justify-content: center;
@@ -41,6 +45,7 @@
 }
 /* Contact */
 .contact {
+  height: 100dvh;
   gap: 0.5rem 0.5rem;
 }
 .contact-text:first-child {
@@ -49,11 +54,9 @@
 .contact-text:nth-child(2) {
   font-size: medium;
 }
-.menu {
-  scroll-snap-align: start;
-}
 /* Footer */
 .footer {
+  height: 100dvh;
   padding: 5rem 1rem;
 }
 .footer-section {
@@ -118,13 +121,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  height: 100dvh;
 }
 .banner > p {
   font-weight: 100;
 }
 /* Menu */
 .menu {
-  padding: 25rem;
+  padding: 15rem 2rem;
+  height: 100%;
+  scroll-snap-align: start;
   height: 100%;
 }
 .menu-button {

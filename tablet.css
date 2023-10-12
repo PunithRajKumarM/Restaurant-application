@@ -1,13 +1,16 @@
 /* About */
 .about {
-  height: 100dvh;
+  height: 100%;
+}
+.about-left {
+  flex-direction: column;
 }
 .about-right {
   display: none;
 }
 /* Booking */
 .book-table {
-  height: 100dvh;
+  height: 100%;
 }
 .booking-data {
   justify-content: center;
@@ -23,11 +26,12 @@
 }
 /* Contact */
 .contact {
-  height: 100dvh;
+  flex-direction: column;
+  height: 100%;
 }
 /* Footer */
 .footer {
-  height: 100dvh;
+  height: 100%;
   padding: 0;
 }
 .footer-section {
@@ -47,11 +51,12 @@
 .navbar {
   flex-direction: column;
   height: auto;
-  row-gap: 0.5rem;
-  padding: 0.5rem;
+  row-gap: 0.1rem;
+  padding: 0.25rem;
 }
 .banner {
-  height: 100dvh;
+  height: 100%;
+  scroll-snap-align: end;
 }
 /* Menu */
 .menu {

@@ -1,0 +1,39 @@
+/* About */
+.about {
+  height: 100%;
+  padding: 6rem 1rem;
+}
+.about-left,
+.about-right {
+  height: 14rem;
+  padding: 1rem;
+  width: 50%;
+  flex-grow: 1;
+  border: 1px solid transparent;
+}
+/* Footer */
+.footer {
+  padding: 5rem 2rem;
+}
+/* Index */
+.navbar {
+  height: 100%;
+}
+.navbar > .logo {
+  column-gap: 0.5rem;
+}
+.navbar > .logo > h1 {
+  font-size: large;
+}
+.logo > span {
+  font-size: xx-large;
+}
+.lists a {
+  margin-right: 0.25rem;
+  font-weight: 100;
+}
+.lists a button,
+.navbar > button {
+  font-weight: 500;
+  padding: 0.25rem;
+}
