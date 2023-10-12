@@ -1,0 +1,203 @@
+/* About */
+.about {
+  height: 100dvh;
+  padding: 2rem 0.5rem;
+}
+.about-text {
+  font-size: large;
+}
+.about-section {
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 0.5rem;
+  align-items: center;
+}
+.about-left {
+  width: 100%;
+}
+.about-left > h1 {
+  font-size: large;
+}
+.about-left > p {
+  font-size: small;
+}
+.about-right {
+  display: none;
+}
+.about-button {
+  padding: 0.5rem 1rem;
+  font-size: small;
+}
+/* Booking */
+.book-table {
+  scroll-snap-align: end;
+  height: 100dvh;
+}
+.booking-data {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.book-table-text {
+  font-size: large;
+}
+.book-table,
+.booking-data {
+  gap: 0.5rem 0.5rem;
+}
+.book-table > button {
+  padding: 0.5rem 1rem;
+}
+.booking-data input {
+  font-weight: 100;
+}
+/* Contact */
+.contact {
+  height: 100dvh;
+  gap: 0.5rem 0.5rem;
+}
+.contact form > input {
+  font-weight: 100;
+}
+.contact-text:first-child {
+  font-size: large;
+}
+.contact-text:nth-child(2) {
+  font-size: small;
+}
+.contact > form > table tr td input::placeholder,
+.contact > form > table tr td textarea::placeholder {
+  font-size: small;
+}
+/* Footer */
+.footer {
+  height: 100dvh;
+  padding: 5rem 1rem;
+}
+.footer-section {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer-contact,
+.footer-timing,
+.footer-follow-us {
+  width: 100%;
+  height: auto;
+}
+.footer > .footer-logo > h1 {
+  font-size: large;
+}
+.footer-contact,
+.footer-timing,
+.footer-follow-us {
+  font-size: small;
+}
+.footer-contact h2,
+.footer-timing h2,
+.footer-follow-us h2 {
+  font-size: medium;
+}
+/* Index */
+.navbar {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  row-gap: 0.5rem;
+  padding: 1rem 0.5rem;
+  position: sticky;
+  top: 0;
+  left: 0;
+  font-size: small;
+}
+.lists > a > button {
+  display: none;
+}
+.logo > span {
+  color: orangered;
+  font-size: large;
+}
+.navbar > .logo > h1 {
+  font-size: large;
+  font-family: "Dancing Script", cursive;
+  font-style: italic;
+  color: orangered;
+}
+.lists a {
+  margin-right: 1rem;
+  text-decoration: none;
+  color: white;
+  font-weight: 100;
+}
+.lists a button,
+.navbar > button {
+  cursor: pointer;
+  padding: 0.2rem;
+  border-radius: 10px;
+  border-color: darkred;
+  background: orangered;
+  color: white;
+  font-weight: 100;
+}
+.banner {
+  padding: 8rem 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100dvh;
+}
+.banner > p {
+  font-weight: 100;
+}
+/* Menu */
+.menu {
+  padding: 12rem 2rem;
+  height: 100%;
+  scroll-snap-align: start;
+  height: 100%;
+  font-size: small;
+}
+.menu-button {
+  padding: 0.5rem 1rem;
+}
+.menu-text {
+  font-size: large;
+}
+.menu-list {
+  padding: 3rem 6rem;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-blend-mode: lighten;
+  transition: all 1s ease;
+}
+/* Service */
+.service {
+  padding: 5rem 0.5rem;
+  font-size: small;
+}
+.service-list {
+  display: flex;
+  flex-direction: column;
+  width: 12rem;
+  height: 15rem;
+}
+.service,
+.service-lists,
+.service-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem 1rem;
+}
+.service-text {
+  font-size: large;
+}
+.service-list > h1 {
+  font-size: medium;
+}
+.service-logo {
+  font-size: large;
+}
