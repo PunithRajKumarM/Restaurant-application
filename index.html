@@ -160,8 +160,8 @@
     <div class="contact" id="contact">
       <h1 class="contact-text">Contact</h1>
       <h3 class="contact-text">Get in touch</h3>
-      <form action="#">
-        <table>
+      <form id="contact-form" action="#">
+        <!-- <table>
           <tr>
             <td><input type="text" placeholder="Name" /></td>
             <td><input type="email" placeholder="Email" /></td>
@@ -171,6 +171,38 @@
           </tr>
           <tr>
             <td colspan="2">
+              <textarea
+                name=""
+                id=""
+                cols="30"
+                rows="10"
+                placeholder="Message"
+              ></textarea>
+            </td>
+          </tr>
+        </table> -->
+        <table>
+          <tr>
+            <td><label for="contact-name">Name</label></td>
+            <td class="colon">:</td>
+            <td>
+              <input id="contact-name" type="text" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="contact-email">Email</label></td>
+            <td class="colon">:</td>
+            <td>
+              <input id="contact-email" type="email" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="contact-subject">Subject</label></td>
+            <td class="colon">:</td>
+            <td><input id="contact-subject" type="text" /></td>
+          </tr>
+          <tr>
+            <td colspan="3">
               <textarea
                 name=""
                 id=""
