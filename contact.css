@@ -54,6 +54,7 @@
 .contact-text:first-child {
   color: orangered;
   /* color: chocolate; */
+  color: white;
   font-size: xx-large;
   font-family: "Dancing Script", cursive;
   text-align: center;
@@ -65,7 +66,7 @@
   text-align: center;
 }
 .contact-text {
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 2px 3px 2px black;
 }
 
 label,

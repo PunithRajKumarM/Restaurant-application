@@ -14,8 +14,10 @@
   flex-wrap: wrap;
 }
 .about-text {
-  text-shadow: 0 1px 1px black;
-  color: orangered;
+  /* text-shadow: 0 1px 1px black; */
+  text-shadow: 2px 3px 2px black;
+  /* color: orangered; */
+  color: white;
   font-size: xx-large;
   font-family: "Dancing Script", cursive;
   text-align: center;

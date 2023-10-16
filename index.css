@@ -99,11 +99,17 @@ html {
 
 .logo > span,
 .navbar > .logo > h1,
-.lists a,
-.lists a button,
-.banner > p,
-.banner > h1 {
+.lists a button {
   text-shadow: 0 1px 1px black;
+}
+.lists a {
+  text-shadow: 0.5px 1px 1.5px black;
+}
+.banner > p {
+  text-shadow: 1.5px 1px 1.5px black;
+}
+.banner > h1 {
+  text-shadow: 1.5px 2px 2px black;
 }
 .navbar,
 .navbar > .logo,
