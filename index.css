@@ -36,8 +36,11 @@ html {
 .lists a {
   margin-right: 1rem;
   text-decoration: none;
-  color: white;
-  font-weight: 600;
+  color: orangered;
+  font-weight: 700;
+}
+.lists a:hover {
+  color: darkorange;
 }
 .lists a button,
 .navbar > button {
@@ -102,9 +105,7 @@ html {
 .lists a button {
   text-shadow: 0 1px 1px black;
 }
-.lists a {
-  text-shadow: 0.5px 1px 1.5px black;
-}
+
 .banner > p {
   text-shadow: 1.5px 1px 1.5px black;
 }
