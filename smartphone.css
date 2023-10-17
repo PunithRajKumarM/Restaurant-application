@@ -1,6 +1,6 @@
-/* html {
-  scroll-snap-type: none;
-} */
+html {
+  scroll-snap-type: proximity;
+}
 /* About */
 .about {
   height: 100dvh;
@@ -18,8 +18,10 @@
   width: 100%;
 }
 .about-left > h1 {
-  font-size: x-large;
+  font-size: large;
+  /* margin-bottom: 0.5rem; */
 }
+
 .about-right {
   display: none;
 }
@@ -90,18 +92,18 @@
   left: 0;
 }
 .logo > span {
-  color: orangered;
+  /* color: orangered; */
   font-size: xx-large;
 }
 .navbar > .logo > h1 {
   font-family: "Dancing Script", cursive;
   font-style: italic;
-  color: orangered;
+  /* color: orangered; */
 }
 .lists a {
   margin-right: 1rem;
   text-decoration: none;
-  color: white;
+  /* color: white; */
   font-weight: 100;
 }
 .lists a button,
@@ -109,9 +111,9 @@
   cursor: pointer;
   padding: 0.5rem;
   border-radius: 10px;
-  border-color: darkred;
-  background: orangered;
-  color: white;
+  /* border-color: darkred;
+  background: orangered; */
+  /* color: white; */
   font-weight: 100;
 }
 .banner {

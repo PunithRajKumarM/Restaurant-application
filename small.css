@@ -1,3 +1,6 @@
+html {
+  scroll-snap-type: none;
+}
 /* About */
 .about {
   height: 100dvh;
@@ -114,19 +117,19 @@
   display: none;
 }
 .logo > span {
-  color: orangered;
+  /* color: orangered; */
   font-size: large;
 }
 .navbar > .logo > h1 {
   font-size: large;
   font-family: "Dancing Script", cursive;
   font-style: italic;
-  color: orangered;
+  /* color: orangered; */
 }
 .lists a {
   margin-right: 1rem;
   text-decoration: none;
-  color: white;
+  /* color: white; */
   font-weight: 100;
 }
 .lists a button,
@@ -134,9 +137,9 @@
   cursor: pointer;
   padding: 0.2rem;
   border-radius: 10px;
-  border-color: darkred;
-  background: orangered;
-  color: white;
+  /* border-color: darkred;
+  background: orangered; */
+  /* color: white; */
   font-weight: 100;
 }
 .banner {
